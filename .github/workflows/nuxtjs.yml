@@ -77,6 +77,10 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./.output/public
+      - name: check output
+        run: |
+          ls -la ./.output/public
+          cat ./.output/public/index.html
 
   # Deployment job
   deploy:
