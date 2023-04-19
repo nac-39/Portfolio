@@ -61,7 +61,7 @@ skills:
         icon: vscode-icons:file-type-sql
         description: >
           PostgreSQLを使ったことがあります。基本的なSQL,コマンドライン操作はできます。まだ1からデータベースを作ったことはありません。
-  - title: フロントエンド
+  - title: 開発環境
     skills:
       - name: Docker
         icon: vscode-icons:file-type-docker
@@ -80,7 +80,7 @@ skills:
         icon: skill-icons:vim-light
         description: >
           争いは好みませんが、やっぱりVimですよね()。最近はNeovimを入れてコツコツ設定を育てるのが楽しいです。
-  - title: 開発環境
+  - title: その他
     skills:
       - name: Numpy, Matplotlib
         description: >

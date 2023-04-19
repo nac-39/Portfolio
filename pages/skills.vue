@@ -3,12 +3,12 @@
     <div class="font-title text-4xl">
       Skills
     </div>
-    <div class="py-12">
-      <div v-for="skill in skills" :key="skill.title">
+    <div class="pb-12">
+      <div v-for="skill in skills" :key="skill.title" class="my-16">
         <h2 class="text-xl font-bold">
           {{ skill.title }}
         </h2>
-        <div v-for="s in skill.skills" :key="s.name" class="my-4">
+        <div v-for="s in skill.skills" :key="s.name" class="my-2">
           <SkillCard
             :name="s.name"
             :icon="s.icon"

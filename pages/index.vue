@@ -33,7 +33,7 @@
           <div class="font-bold mb-2">
             自己紹介
           </div>
-          <div class="whitespace-pre-wrap text-sm break-words">
+          <div class="whitespace-pre-wrap text-sm break-words prose">
             {{ selfIntroduction }}
           </div>
         </div>
