@@ -4,7 +4,7 @@ export type Work = {
   date: string
   imgPath?: string
   description: string
-  frameworks: FrameworkTag[]
+  frameworks?: FrameworkTag[]
   githubUrl?: string
   siteUrl?: string
 }

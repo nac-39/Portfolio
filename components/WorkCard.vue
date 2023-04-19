@@ -2,19 +2,19 @@
   <div>
     <div class="border border-text_main sm:w-80">
       <nuxt-img v-if="imgPath" :src="imgPath" class="aspect-[16/9]" />
-      <div class="p-2">
-        <div class="flex items-center justify-between space-x-2">
+      <div>
+        <div class="flex items-center flex-wrap justify-between mx-2">
           <span class="text-lg font-bold">
             {{ title }}
           </span>
-          <span class="text-sm">
+          <span class="text-sm min-w-max">
             {{ date }}
           </span>
         </div>
-        <div class="text-sm prose mt-2">
+        <div class="text-sm prose m-2">
           {{ description }}
         </div>
-        <div class="flex py-2 flex-wrap">
+        <div class="flex m-2 flex-wrap">
           <div
             v-for="framework in frameworks"
             :key="framework.name"
@@ -33,7 +33,7 @@
       <a
         v-if="githubUrl"
         :href="githubUrl"
-        :class="siteUrl ? ' border-l-0 basis-1/2' : 'w-full'"
+        :class="siteUrl ? ' basis-1/2' : 'w-full'"
         class="border border-t-0 border-text_main text-center"
       >
         GitHub
@@ -56,7 +56,7 @@ defineProps<{
     date: string
     imgPath?: string
     description: string
-    frameworks: FrameworkTag[]
+    frameworks?: FrameworkTag[]
     githubUrl?: string
     siteUrl?: string
   }>()

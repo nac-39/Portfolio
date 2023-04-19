@@ -1,17 +1,62 @@
 works:
   - title: 名大の新歓まとめサイト
     date: 2023年3月
-    imgPath: /nu_shinkan.png
-    description: 名大の新歓まとめサイトを作りました。名大の新歓情報をまとめています。
+    imgPath: /img/nu_shinkan.png
+    description: >
+      名大の新歓まとめサイトを作りました。ホスティング、Twitter認証、データの管理にFirebaseを使用しました。
+      データの取得にはTwitter APIを使用しています。
+      実際に会った新入生がこのサイトでサークルを探していて嬉しかったです。
     frameworks:
       - name: Nuxt.js
         icon: vscode-icons:file-type-nuxt
         url: https://nuxtjs.org/
-      - name: Nuxt.js
-        icon: vscode-icons:file-type-nuxt
-        url: https://nuxtjs.org/
-      - name: Nuxt.js
-        icon: vscode-icons:file-type-nuxt
-        url: https://nuxtjs.org/
+      - name: Firebase
+        icon: vscode-icons:file-type-firebase
+        url: https://firebase.google.com/
     siteUrl: https://nu-shinkan.net/
- 
+  - title: ゼロイチゼミのサイト
+    date: 2023年1月
+    imgPath: /img/zero_one_site.png
+    description: >
+      所属するゼロイチゼミのホームページを作りました。
+      esa.ioをCMSとして使えるようにGitHub Actionsを設定したり、Hexoのテーマを作る部分を担当しました。
+    frameworks:
+      - name: Hexo
+        icon: logos:hexo
+        url: https://hexo.io/
+      - name: GitHub Actions
+        icon: logos:github-actions
+        url: https://github.co.jp/features/actions
+    githubUrl: https://github.com/zero-one-seminar/official_page
+    siteUrl: https://nu-zero-one.netlify.app/
+  - title: NUCTのPythonラッパー
+    date: 2022年夏
+    imgPath: /img/nuctpy.png
+    description: >
+      大学の LMS である NUCT の API のラッパーを作りました。
+      初めてまともに作った Python パッケージです。pre-commit や examples, ドキュメントなどもしっかり作りました。
+      大学のLMSの認証方法が変わってしまったので、現在は動きません。
+    siteUrl: https://nac-39.github.io/nuctpy/
+    githubUrl: https://github.com/nac-39/nuctpy
+  - title: ロシア語注釈
+    date: 2021年冬
+    imgPath: /img/russian_annotation.png
+    description: >
+      ロシア語を入力すると，単語の格や性のルビが振られる web アプリです．単語をダブルクリックすると東京外国語大学の辞書に飛びます．
+      二外のロシア語の授業の予習を楽にするために作りました。
+      ロシア語の入力が手間で、別途OCRアプリを使っていたのですが、そこも統合できればよかったです。
+    frameworks:
+      - name: Flask
+        icon: logos:flask
+        url: https://flask.palletsprojects.com/
+    siteUrl: https://russian-annotation.onrender.com/
+    githubUrl: https://github.com/nac-39/russian_annotation
+  - title: gather.town にいる人が見れる Slack Bot
+    date: 2022年春
+    imgPath: /img/gather_slack.png
+    description: >
+      サークルで使っているgather.townで、gather に入っている人を可視化したくて作りました．
+      gather.townのAPIを叩いて、Slackの投稿を書き換えるだけのシンプルなものですが、
+      サークルの人たちからは好評だったので、作ってよかったです。
+    githubUrl: https://github.com/nac-39/slack-bot_gather_member
+
