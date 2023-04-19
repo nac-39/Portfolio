@@ -37,6 +37,7 @@
         :href="githubUrl"
         class="border-t w-full border-text_main text-center"
       >
+        <Icon name="mdi:github" class="w-5 h-5" />
         GitHub
       </a>
     </div>
