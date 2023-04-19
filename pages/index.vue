@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="px-20">
+    <div class="px-4 md:px-20">
       <div class="flex items-center space-x-4 flex-wrap my-72">
         <h1 class="font-title text-text_main font-bold text-hero min-w-max">
           {{ title }}
@@ -10,7 +10,7 @@
         </h2>
       </div>
     </div>
-    <div class="bg-main_dark text-text_white p-20">
+    <div class="bg-main_dark text-text_white px-4 md:px-20 py-4 md:py-8">
       <h2 class="font-title text-4xl">
         About
       </h2>

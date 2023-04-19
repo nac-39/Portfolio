@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="bg-bg_light min-h-screen">
-      <Header />
+      <UiHeader />
       <slot />
     </div>
-    <Footer />
+    <UiFooter />
   </div>
 </template>

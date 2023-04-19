@@ -1,15 +1,21 @@
 export type FrameworkTag = {
-  iconUrl: string
+  icon: string
   name: string
-  officialSiteLink?: string
+  url?: string
 }
 export type Skill = {
   name: string
-  iconUrl?: string
+  icon?: string
   description: string
-  frameworks: FrameworkTag[]
+  frameworks?: FrameworkTag[]
 }
 
+export type Skills = {
+  skills: {
+    title: string
+    skills: Skill[]
+  }[]
+}
 export type FieldSkills = {
   fieldname: string
   skills: Skill[]

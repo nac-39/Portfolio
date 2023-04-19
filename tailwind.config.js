@@ -30,7 +30,9 @@ module.exports = {
 				hero: "6rem"
 			}
 		},
-		plugins: []
+		plugins: [
+			require('@tailwindcss/typography'),
+		]
 	}
 
 }

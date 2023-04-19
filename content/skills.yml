@@ -1,0 +1,96 @@
+skills:
+  - title: フロントエンド
+    skills:
+      - name: Vue
+        icon: vscode-icons:file-type-vue
+        description: >
+          一番使えるフレームワークです。インターン先で使っていました。
+          Composition APIはかなり使い慣れていると思います。このポートフォリオもNuxtで作っています。
+          Nuxt, Vuetify, tailwindcssなどと一緒に使うことが多いです。
+        frameworks:
+          - name: Nuxt.js
+            icon: vscode-icons:file-type-nuxt
+            url: https://nuxtjs.org/
+          - name: Vuetify
+            icon: logos:vuetifyjs
+            url: https://vuetifyjs.com/
+          - name: tailwind
+            icon: vscode-icons:file-type-tailwind
+            url: https://tailwindcss.com/
+      - name: React
+        icon: vscode-icons:file-type-reactjs
+        description: >
+          Vueほどは使えませんが、何度か使ったことがあります。基本的なコンポーネントの書き方、フックの使い方などは理解しているつもりです。
+          GatsbyやNext.js、MUIなどのフレームワークを触ったことがあります。
+        frameworks:
+          - name: Gatsby
+            icon: vscode-icons:file-type-reactjs
+            url: https://www.gatsbyjs.org/
+          - name: Next.js
+            icon: vscode-icons:file-type-light-next
+            url: https://nextjs.org/
+          - name: Material UI
+            icon: simple-icons:mui
+            url: https://mui.com/core/
+  - title: バックエンド
+    skills:
+      - name: Python
+        icon: vscode-icons:file-type-python
+        description: >
+          バックエンドとして一番使える言語です。Djangoでシステムを一から作り、Docker, Apacheを使ってデプロイした経験があります。
+          また、FastAPIで型を使って開発したり、Flaskを使ったりしたこともあります。
+        frameworks:
+          - name: Django
+            icon: vscode-icons:file-type-django
+            url: https://www.djangoproject.com/
+          - name: Flask
+            icon: simple-icons:flask
+            url: https://flask.palletsprojects.com/
+          - name: FastAPI
+            icon: skill-icons:fastapi
+            url: https://fastapi.tiangolo.com/
+      - name: Firebase
+        icon: vscode-icons:file-type-firebase
+        description: >
+          Nuxtで作ったサイトのホスティング、バックエンドとして使ったことがあります。Hosting, Firestore, Authentication, Functionsを使いました。AuthenticationではTwitterログインを使い、こちらが許可したユーザーしかユーザー登録できないようにFunctionsを設定しました。
+      - name: AWS
+        icon: skill-icons:aws-dark
+        description: >
+          EC2, Lambda, S3, API Gatewayなどはチュートリアル程度は使ったことがあります。
+      - name: SQL
+        icon: vscode-icons:file-type-sql
+        description: >
+          PostgreSQLを使ったことがあります。基本的なSQL,コマンドライン操作はできます。まだ1からデータベースを作ったことはありません。
+  - title: フロントエンド
+    skills:
+      - name: Docker
+        icon: vscode-icons:file-type-docker
+        description: >
+          様々な言語の開発環境として使っています。Djangoのアプリのデプロイに使用したこともあります。
+          バックエンド、DB、フロントエンドのコンテナを立てて繋げるなどはよくやります。
+      - name: GitHub
+        icon: mdi:github
+        description: >
+          毎日眺めてます。開発ではCI/CDツールとしてGitHub Actionsをよく使います。
+      - name: Visual Studio Code
+        icon: vscode-icons:file-type-vscode
+        description: >
+          メインで使っています。最近はGitHub Copilotが大活躍です。
+      - name: Vim
+        icon: skill-icons:vim-light
+        description: >
+          争いは好みませんが、やっぱりVimですよね()。最近はNeovimを入れてコツコツ設定を育てるのが楽しいです。
+  - title: 開発環境
+    skills:
+      - name: Numpy, Matplotlib
+        description: >
+          大学の授業でシミュレーションとその結果の図示のためによく使います。
+      - name: スクレイピング
+        description: >
+          Pythonでスクレイピングをすることができます。BeautifulSoup, Seleniumなどを使っています。
+      - name: 電子工作
+        description: >
+          参考資料を見てその通りにC, C++などでコードを書き、組み立てる程度ならやったことがあります。Arduino nanoと熱電対を使った温度計や、自作キーボードを作ったことがあります。
+      - name: ネットワーク
+        description: >
+          マスタリングTCP/IPを一度通読して基本的なことは理解しているつもりです。実際に構築などはまだしたことがありません。興味はあります！
