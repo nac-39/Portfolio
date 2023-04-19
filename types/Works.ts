@@ -1,10 +1,10 @@
 import { FrameworkTag } from "./Skills"
 export type Work = {
-  name: string
-  startDate?: string
-  endDate?: string
+  title: string
+  date: string
+  imgPath?: string
   description: string
   frameworks: FrameworkTag[]
-  githubUrl: string
-  siteUrl: string
+  githubUrl?: string
+  siteUrl?: string
 }

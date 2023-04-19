@@ -26,6 +26,7 @@
     "@commitlint/cli": "^17.6.0",
     "@commitlint/config-conventional": "^17.6.0",
     "@nuxt/content": "^2.5.2",
+    "@nuxt/image-edge": "^1.0.0-28020728.5df24eb",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
@@ -42,6 +43,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
     "lint-staged": "^13.2.1"
   }

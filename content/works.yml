@@ -1,0 +1,17 @@
+works:
+  - title: 名大の新歓まとめサイト
+    date: 2023年3月
+    imgPath: /nu_shinkan.png
+    description: 名大の新歓まとめサイトを作りました。名大の新歓情報をまとめています。
+    frameworks:
+      - name: Nuxt.js
+        icon: vscode-icons:file-type-nuxt
+        url: https://nuxtjs.org/
+      - name: Nuxt.js
+        icon: vscode-icons:file-type-nuxt
+        url: https://nuxtjs.org/
+      - name: Nuxt.js
+        icon: vscode-icons:file-type-nuxt
+        url: https://nuxtjs.org/
+    siteUrl: https://nu-shinkan.net/
+ 
