@@ -1,8 +1,12 @@
 <template>
   <div>
     <div class="border border-text_main sm:w-80">
-      <nuxt-img v-if="imgPath" :src="imgPath" class="aspect-[16/9]" />
-      <div>
+      <nuxt-img
+        v-if="imgPath"
+        :src="imgPath"
+        class="aspect-[16/9] border-b border-text_main"
+      />
+      <div class="mt-2">
         <div class="flex items-center flex-wrap justify-between mx-2">
           <span class="text-lg font-bold">
             {{ title }}
