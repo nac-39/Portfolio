@@ -9,8 +9,10 @@ export default defineNuxtConfig({
       },
       meta: [
         { property: "og:type", content: "website" },
-        { property: "og:site_name", content: "nac-39's porofolio" },
-        { property: "og:image", content: "/img/ogp.png" }
+        { property: "og:title", content: "nac-39's portfolio" },
+        { property: "og:site_name", content: "nac-39.com" },
+        { property: "og:description", content: "nac-39's portfolio" },
+        { property: "og:image", content: "/Portfolio/img/ogp.png" }
       ]
     }
   },
