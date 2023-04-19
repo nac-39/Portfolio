@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: "/Portfolio",
-    cdnURL: "/"
+    baseURL: "/Portfolio"
   },
   css: ["@/assets/css/tailwind.css"],
   modules: ["@nuxt/content", "nuxt-icon", "@nuxt/image-edge"],
