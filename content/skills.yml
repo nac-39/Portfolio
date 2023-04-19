@@ -24,7 +24,7 @@ skills:
           GatsbyやNext.js、MUIなどのフレームワークを触ったことがあります。
         frameworks:
           - name: Gatsby
-            icon: vscode-icons:file-type-reactjs
+            icon: vscode-icons:file-type-gatsby
             url: https://www.gatsbyjs.org/
           - name: Next.js
             icon: vscode-icons:file-type-light-next
