@@ -1,4 +1,5 @@
 import { Client, cacheExchange, fetchExchange } from "@urql/core"
+import { KusaWeek } from "~/types/GitHub"
 
 export default defineNuxtPlugin(async () => {
   const urql = new Client({
@@ -17,8 +18,6 @@ export default defineNuxtPlugin(async () => {
   query {
     user(login: "nac-39") {
       contributionsCollection {
-        earliestRestrictedContributionDate
-        latestRestrictedContributionDate
         contributionCalendar {
           totalContributions
           colors
@@ -41,7 +40,17 @@ export default defineNuxtPlugin(async () => {
     .toPromise()
   return {
     provide: {
-      github: data
+      github: data as {
+        user: {
+          contributionsCollection: {
+            contributionCalendar: {
+              totalContributions: number
+              colors: string[]
+              weeks: KusaWeek[]
+            }
+          }
+        }
+      }
     }
   }
 })

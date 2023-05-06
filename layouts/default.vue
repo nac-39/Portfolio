@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <div class="bg-bg_light min-h-screen">
       <UiHeader />
       <slot />
