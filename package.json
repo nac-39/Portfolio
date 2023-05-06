@@ -31,20 +31,25 @@
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
+    "@urql/core": "^4.0.7",
     "@vue/eslint-config-prettier": "^7.1.0",
     "consola": "^3.0.2",
     "eslint": "^8.38.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.10.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "nuxt": "^3.4.1",
     "nuxt-icon": "^0.3.3",
     "prettier": "^2.8.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "urql": "^4.0.2"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
-    "lint-staged": "^13.2.1"
+    "@types/three": "^0.152.0",
+    "graphql": "^16.6.0",
+    "three": "^0.152.2"
   }
 }
