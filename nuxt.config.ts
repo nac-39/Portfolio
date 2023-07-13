@@ -30,5 +30,9 @@ export default defineNuxtConfig({
       // コードハイライトを有効化する場合はテーマを設定
       theme: "github-light",
     },
+    markdown: {
+      remarkPlugins: ["remark-math"],
+      rehypePlugins: ["rehype-mathjax"],
+    },
   },
 })
