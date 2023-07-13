@@ -5,6 +5,6 @@
 </template>
 <script setup lang="ts">
 defineProps<{
-    url: string
-  }>()
+  url: string
+}>()
 </script>
