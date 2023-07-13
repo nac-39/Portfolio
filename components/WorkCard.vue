@@ -46,12 +46,12 @@
 <script setup lang="ts">
 import type { FrameworkTag } from "~/types/Skills"
 defineProps<{
-    title: string
-    date: string
-    imgPath?: string
-    description: string
-    frameworks?: FrameworkTag[]
-    githubUrl?: string
-    siteUrl?: string
-  }>()
+  title: string
+  date: string
+  imgPath?: string
+  description: string
+  frameworks?: FrameworkTag[]
+  githubUrl?: string
+  siteUrl?: string
+}>()
 </script>

@@ -27,9 +27,9 @@
 <script setup lang="ts">
 import type { FrameworkTag } from "~/types/Skills"
 defineProps<{
-    name: string
-    icon?: string
-    description: string
-    frameworks?: FrameworkTag[]
-  }>()
+  name: string
+  icon?: string
+  description: string
+  frameworks?: FrameworkTag[]
+}>()
 </script>
