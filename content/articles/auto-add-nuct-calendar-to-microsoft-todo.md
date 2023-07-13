@@ -33,5 +33,5 @@ tags:
 4. 予定表 ID を設定．
 5. Microsoft To-Do のアクション，「To Do を追加する」を追加．
 6. To Do リスト，タイトル，期日などを設定する．タイトル以下は動的なコンテンツからカレンダーの情報を取得して入れる．
-   ![一例](/images/automate1.png)
+   ![一例](/img/automate1.png)
 7. 保存する

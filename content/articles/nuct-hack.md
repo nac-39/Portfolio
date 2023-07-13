@@ -16,7 +16,7 @@ categories: ["NUCT"]
 実は，NUCT は名大の人が 0 から作ったサービスではありません．実はオープンソースの Sakai というプロジェクトを元にして作られています．
 
 その証拠に，NUCT を開いて，一番下までスクロールしてみてください．
-![nuctにpowerd-by-sakaiと書いてある](/images/nuct-powerd-by-sakai.png)
+![nuctにpowerd-by-sakaiと書いてある](/img/nuct-powerd-by-sakai.png)
 このように[Powerd by Sakai](https://www.sakailms.org/)と書いてあります．Sakai はオープンソースの LMS(学習管理システム: Learning Management System)です．オープンソースなので，だれでも[こちら](http://source.sakaiproject.org/release/22.0/)からダウンロードして自由に使うことができますし，ソースコードは[こちら](https://github.com/sakaiproject/sakai)に公開されています．
 
 つまり，NUCT では Sakai のために開発されたツールを使うことができるのです！

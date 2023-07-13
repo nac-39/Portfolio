@@ -17,31 +17,31 @@ categories: [movie]
 
 #### レオン
 
-<img src="https://m.media-amazon.com/images/I/818qb71T25L._AC_UL640_FMwebp_QL65_.jpg
+<img src="https://m.media-amazon.com/img/I/818qb71T25L._AC_UL640_FMwebp_QL65_.jpg
 " width = "50%">
 牛乳美味しそう，植木の植物かわいくなってくる（違う，そこじゃない）
 
 #### 戦場のピアニスト
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/71rDEq9xtbS._SX600_.jpg
+<img src="https://img-na.ssl-images-amazon.com/img/I/71rDEq9xtbS._SX600_.jpg
 " width = "50%">
 ナチスから逃れたポーランド人ピアニストが荒廃した誰もいない瓦礫の街の中を生き延びる話．見終わった時の感覚が忘れられない．
 
 #### スターウォーズ
 
-<img src="https://m.media-amazon.com/images/I/91ZGpbvIk-L._AC_SX296_SY426_FMwebp_QL65_.jpg
+<img src="https://m.media-amazon.com/img/I/91ZGpbvIk-L._AC_SX296_SY426_FMwebp_QL65_.jpg
 " width = "50%">
 7 までは見た．1 から 6 の順で見たので，アナキンスカイウォーカーが好きになってしまった．ケノービの三つ編みちょっと憧れる．
 
 #### 愛を読む人
 
-<img src="https://m.media-amazon.com/images/I/81fNRp+h6eL._AC_SX296_SY426_FMwebp_QL65_.jpg
+<img src="https://m.media-amazon.com/img/I/81fNRp+h6eL._AC_SX296_SY426_FMwebp_QL65_.jpg
 " width = "50%">
 物語の後半からの展開が好き．原作本の日本語訳では『朗読者』．
 
 #### フォレスト・ガンプ
 
-<img src="https://m.media-amazon.com/images/I/71yJ8CT0RYL._AC_SX296_SY426_FMwebp_QL65_.jpg
+<img src="https://m.media-amazon.com/img/I/71yJ8CT0RYL._AC_SX296_SY426_FMwebp_QL65_.jpg
 " width = "50%">
 この映画見てから人の靴が気になるようになった．世界史の先生がウォーターゲート事件の話するときにこの映画持ち出してきた．
 

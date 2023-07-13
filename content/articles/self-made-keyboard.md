@@ -7,7 +7,7 @@ categories: "gadget"
 
 高校生の頃からの念願だった自作キーボードを作りました！
 
-![keyboard](/images/keyboard.png)
+![keyboard](/img/keyboard.png)
 
 [Lily58 Lite Rev2](https://shop.yushakobo.jp/products/consign_lily58-lite-rev2)です。キースイッチは[Gateron North Pole Transparent / Linear / 50g](https://shop.yushakobo.jp/products/5014)を使っています。
 
@@ -26,9 +26,9 @@ Enter + hjkl で十字キーになるのが便利です。
 
 キーマップの書き換えに加えて、Karabiner-Elements でもキーを書き換えています。右下の Home キーは mac の Fn キーに、Alt キーは英かなキーになるようにしています。
 
-![3](/images/keylayout3.png)
-![2](/images/keylayout2.png)
-![1](/images/keylayout1.png)
+![3](/img/keylayout3.png)
+![2](/img/keylayout2.png)
+![1](/img/keylayout1.png)
 
 この配置で微妙なのが\\|キーが backspace と同じになっている点です。backspace 自体は^h で代用できるので大抵は困らないのですが、office 系のソフトだと control が使えなくなるので backspace は無くせないんですよね。あとは esc と`~が一緒になっているところとか。この辺にはどうにか慣れていきたいですね。
 

@@ -47,15 +47,15 @@ $ brew install raspberry-pi-imager --cask
 
 ## 2. SD カードをフォーマットする．
 
-![SDカードをフォーマットする](/images/SD_format.png)
+![SDカードをフォーマットする](/img/SD_format.png)
 erase を選び，storage から書き込み先の SD カードを選び，WRITE を押す．
 
 ## 3. ubuntu server21.10(RPI 3/4/400) 64bit を書き込む
 
-![ubuntu server21.10(RPI 3/4/400) 64bitを書き込む](/images/ubuntu_server_image.png)
+![ubuntu server21.10(RPI 3/4/400) 64bitを書き込む](/img/ubuntu_server_image.png)
 ubuntu server21.10(RPI 3/4/400) 64bit を選び，storage から書き込み先の SD カードを選び，WRITE を押す．これには少し時間がかかるので待つ．  
 書き込みが終わったら，一回 SD カードを抜いてまた差し込む．すると，デスクトップに"system-boot"という名前のディスクが表示される．
-![system-boot](/images/system-boot.png)
+![system-boot](/img/system-boot.png)
 
 ## 4. system-boot を書き換える．
 
