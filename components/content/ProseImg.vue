@@ -3,8 +3,6 @@
 </template>
 
 <script setup lang="ts">
-import { withBase } from "ufo"
-
 const props = defineProps({
   src: {
     type: String,
@@ -25,9 +23,6 @@ const props = defineProps({
 })
 
 const refinedSrc = computed(() => {
-  if (props.src?.startsWith("/") && !props.src.startsWith("//")) {
-    return withBase(props.src, useRuntimeConfig().app.baseURL)
-  }
   return props.src
 })
 </script>
