@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
     highlight: {
       // コードハイライトを有効化する場合はテーマを設定
-      theme: "one-dark-pro"
+      theme: "github-light"
     }
   }
 })
