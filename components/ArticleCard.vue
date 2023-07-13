@@ -1,5 +1,5 @@
 <template>
-  <div class="border px-6 py-8 max-w-2xl border-text_main text-sm">
+  <div class="border px-6 py-8 max-w-2xl m-0 border-text_main text-sm">
     <NuxtLink :to="getArticlePath(data.article)" class="text-sm">
       <ContentRenderer :value="data.article">
         <div>

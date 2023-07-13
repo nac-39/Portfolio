@@ -1,14 +1,15 @@
 <template>
-  <div class="px-4 md:px-20">
-    <div class="font-title text-4xl pb-12">
-      Blog
-    </div>
+  <main class="max-w-3xl md:m-auto p-4">
+    <div class="font-title text-4xl pb-12">Blog</div>
     <div class="space-y-4">
-      <div v-for="article in articles" :key="article.title">
-        <ArticleCard :article="article" />
-      </div>
+      <ArticleCard
+        v-for="article in articles"
+        :key="article.title"
+        :article="article"
+        class="m-auto"
+      />
     </div>
-  </div>
+  </main>
 </template>
 <script setup lang="ts">
 import { Article } from "~/types/Article"
