@@ -10,15 +10,15 @@
 <script setup lang="ts">
 const router = useRouter()
 const currentPath = computed(
-  () => `https://nac-39.github.io/Portfolio${router.currentRoute.value.path}`
+  () => `https://nac-39.github.io/Portfolio${router.currentRoute.value.path}`,
 )
 useHead({
   meta: [
     {
       hid: "og:url",
       property: "og:url",
-      content: currentPath.value
-    }
-  ]
+      content: currentPath.value,
+    },
+  ],
 })
 </script>

@@ -58,9 +58,9 @@
 <script setup lang="ts">
 import type { About, General } from "~/types/QueryTypes"
 const { affiliations, selfIntroduction } = await queryContent<About>(
-  "/about"
+  "/about",
 ).findOne()
 const { title, subtitle, links } = await queryContent<General>(
-  "/general"
+  "/general",
 ).findOne()
 </script>

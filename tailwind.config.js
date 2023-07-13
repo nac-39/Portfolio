@@ -6,7 +6,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue"
+    "./app.vue",
   ],
   theme: {
     extend: {
@@ -20,19 +20,19 @@ module.exports = {
         main_darkest: "#1F4B64",
         text_main: "#24292f",
         text_gray: "#424242",
-        text_white: "#E7F0F2"
+        text_white: "#E7F0F2",
       },
       fontFamily: {
         sans: ["Noto Sans JP", "sans-serif"],
-        title: ["Schibsted Grotesk", "sans-serif"]
+        title: ["Schibsted Grotesk", "sans-serif"],
       },
       fontSize: {
-        hero: "6rem"
-      }
+        hero: "6rem",
+      },
     },
     plugins: [
       require("@tailwindcss/typography"),
-      require("@tailwindcss/aspect-ratio")
-    ]
-  }
+      require("@tailwindcss/aspect-ratio"),
+    ],
+  },
 }
