@@ -18,7 +18,7 @@ module.exports = {
         main: "#4AB8D9",
         main_dark: "#0374A6",
         main_darkest: "#1F4B64",
-        text_main: "#121212",
+        text_main: "#24292f",
         text_gray: "#424242",
         text_white: "#E7F0F2"
       },
