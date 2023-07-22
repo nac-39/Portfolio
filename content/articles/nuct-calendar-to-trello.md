@@ -5,13 +5,13 @@ tags: NUCT
 categories: NUCT
 ---
 
-前，GAS で NUCT のカレンダーを Google Tasks に変換するというのをやったのですが，それの Trello バージョンを作りました．なぜなら微積と線形から逃げたかったからです．現実逃避をするには GAS いじりは最適です．
+前，GAS で NUCT のカレンダーを Google Tasks に変換するというのをやったのですが，それの Trello バージョンを作りました．
 
 真面目な動機としては，Google Tasks だとファイルとの連携が URL からしかできなくて面倒だと思ったからです．例えば，レポートのタスクと word ファイルが一緒になってたら便利じゃないですか？Trello なら，きこーアカウントの OneDrive 上のファイルとタスクを紐付けることができます．
 
 <!-- more -->
 
-##### 使い方
+## 使い方
 
 1. Google Spread Sheet を新しく作って，A1 セルに最終更新と書きましょう．(なんか)
 2. 上のタブの拡張機能＞ Google App Script から新しい GAS を作ります．
@@ -24,4 +24,4 @@ categories: NUCT
 
 コードはこちら ↓
 
-<script src="https://gist.github.com/nac-39/e75048b950b4be91917a78d590e64065.js"></script>
+[https://gist.github.com/nac-39/e75048b950b4be91917a78d590e64065](https://gist.github.com/nac-39/e75048b950b4be91917a78d590e64065)

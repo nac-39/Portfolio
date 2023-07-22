@@ -12,31 +12,31 @@ Google カレンダーにバイト用のカレンダーを作成し，そのカ�
 
 <!-- more -->
 
-### コード１
+## コード１
 
-```javascript:settings.gs
-function cID(){
+```javascript
+function cID() {
   return "hogehohgeohogehogheo@group.calendar.google.com"
 }
 
-function serchWord(){
-  return ["バイトA","バイトB"]//何個でも増やせる
+function serchWord() {
+  return ["バイトA", "バイトB"] //何個でも増やせる
 }
 
-function jikyu(a){
-  switch (a){
+function jikyu(a) {
+  switch (a) {
     case "バイトA":
-    return 10000000 //時給を入力
-    break;
+      return 10000000 //時給を入力
+      break
 
     case "バイトB":
-    return 100000000
-    break;
+      return 100000000
+      break
   }
 }
 ```
 
-### コード２
+## コード２
 
 ```javascript
 function doGet() {
@@ -72,7 +72,7 @@ function value() {
 }
 ```
 
-### コード３
+## コード３
 
 ```javascript
 function sumReturn() {
@@ -125,7 +125,7 @@ function okaneKeisan(events) {
 }
 ```
 
-### コード４
+## コード４
 
 ```html
 <!DOCTYPE html>

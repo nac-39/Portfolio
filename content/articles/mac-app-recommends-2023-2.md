@@ -102,7 +102,7 @@ HomeBrew は Mac 用のパッケージマネージャーです。雑に言うと
 
 次のように表示されましたか？
 
-```plaintext
+```
 % cowsay hello world
  _____________
 < hello world >

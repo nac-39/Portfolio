@@ -5,9 +5,11 @@ tags: ["keyboard", "cherry mx"]
 categories: "gadget"
 ---
 
-最近キーボードを買った．[FILCO の Majestouch2 HAKUA](https://www.amazon.co.jp/FILCO-Majestouch2-ASCII%E9%85%8D%E5%88%97%E3%83%86%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%AC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%97-FKBN87M-EMW2/dp/B01N5GIU46/ref=sr_1_10?crid=13PZ2NPQ68IJ7&keywords=filco%2Bmajestouch%2B2%2Bus&qid=1643254616&sprefix=filco%2Bmajestouch%2B2%2B%2Caps%2C174&sr=8-10&th=1)っていうキーボードの US 配列．キースイッチが Cherry MX の桃軸（赤軸の静音バージョン）でめっちゃ打ち心地が良い．カチカチ言わなくて，スコって感じで，HHKB とか静電容量無接点方式に近いって言ってもいいかもしれない（でもあそこまでなめらかじゃない）．
+最近キーボードを買った．[FILCO の Majestouch2 HAKUA](https://www.amazon.co.jp/FILCO-Majestouch2-ASCII%E9%85%8D%E5%88%97%E3%83%86%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%AC%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%97-FKBN87M-EMW2/dp/B01N5GIU46/ref=sr_1_10?crid=13PZ2NPQ68IJ7&keywords=filco%2Bmajestouch%2B2%2Bus&qid=1643254616&sprefix=filco%2Bmajestouch%2B2%2B%2Caps%2C174&sr=8-10&th=1)というキーボードの US 配列．
 
 <!-- more -->
+
+キースイッチが Cherry MX の桃軸（赤軸の静音バージョン）でめっちゃ打ち心地が良い．カチカチ言わなくて，スコって感じで，HHKB とか静電容量無接点方式に近いって言ってもいいかもしれない（でもあそこまでなめらかじゃない）．
 
 本当は東プレ REALFORCE が良くて，北部生協行くたびにスコスコしてたけど，流石に３万もキーボードに出せなかった．今回買ったのも１万ちょっとで十分お高い…
 
