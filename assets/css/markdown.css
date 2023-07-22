@@ -21,7 +21,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-family: "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji";
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   word-wrap: break-word;
 }
 
@@ -41,8 +41,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .markdown-body a {
   background-color: transparent;
-  color: #24292f;
-  text-decoration: none;
 }
 
 .markdown-body abbr[title] {
@@ -60,11 +58,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .markdown-body h1 {
-  margin: 0.67em 0;
   font-weight: 600;
   padding-bottom: 0.3em;
   font-size: 2em;
-  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
 }
 
 .markdown-body mark {
@@ -271,7 +267,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-weight: 600;
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
 }
 
 .markdown-body h3 {
