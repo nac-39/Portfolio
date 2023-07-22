@@ -1,10 +1,12 @@
 ---
-title: nuctのカレンダーをmicrosoft ToDoに自動追加する（GUIのみでできる！）
+title: NUCTのカレンダーをMicrosoft ToDoに自動追加する（GUIのみでできる！）
 date: 2022-01-29 19:22:55
 tags:
 ---
 
-# 手順
+NUCT のカレンダーをを Power Automate を使って Microsoft ToDo に自動追加する方法を紹介します．
+
+<!--more-->
 
 ## 1. NUCT のカレンダーからリンクを取得する
 
@@ -14,7 +16,7 @@ tags:
 
 ## 2. Microsoft Outlook にカレンダーを追加する
 
-1. https://outlook.office.com/calendar/addcalendar にアクセスする（サインインしてなかったら，サインインが求められます）
+1. [https://outlook.office.com/calendar/addcalendar](https://outlook.office.com/calendar/addcalendar) にアクセスする（サインインしてなかったら，サインインが求められます）
 2. Web から定期受信を選び，先程の URL をコピペする
 3. 諸々の設定をして保存
 
@@ -22,12 +24,12 @@ tags:
 
 (注意:Microsoft には To-Do と Planner というサービスがあって，これらは別のものです．)
 
-1. https://to-do.office.com/tasks/today　にアクセスする．
+1. [https://to-do.office.com/tasks/today](https://to-do.office.com/tasks/today)　にアクセスする．
 2. 「新しいリスト」から作成
 
 ## 4. Microsoft Power Automate の設定をする
 
-1. https://powerautomate.microsoft.com/ja-jp/ にアクセス,　サインインする．
+1. [https://powerautomate.microsoft.com/ja-jp/](https://powerautomate.microsoft.com/ja-jp/) にアクセス,　サインインする．
 2.
 3. Outlook のトリガー，「When a new event is created」を選択
 4. 予定表 ID を設定．

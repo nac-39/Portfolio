@@ -5,22 +5,22 @@ tags:
 categories:
 ---
 
-# やりたいこと
+## やりたいこと
 
 Tasks をパソコンのデスクトップ画面に表示したい
 
 <!-- more -->
 
-# やったこと．
+## やったこと．
 
 ### Python で Tasks API を叩く
 
 API 叩くのはよくわからないので，以下のリンクの quickstart.py をコピペしてくる．
-https://developers.google.com/tasks/quickstart/python
+[https://developers.google.com/tasks/quickstart/python](https://developers.google.com/tasks/quickstart/python)
 
 しかし，quickstart.py を実行したら，`credentials.json`がないと言われた.
 
-https://github.com/googleworkspace/python-samples/issues/211
+[https://github.com/googleworkspace/python-samples/issues/2110](https://github.com/googleworkspace/python-samples/issues/211)
 
 この issue に解決方法が書いてあった．要するに OAuth の認証情報を Google Cloud Platform で作って，それを json 形式でダウンロードしておかないといけなかったらしい．
 
@@ -48,7 +48,7 @@ quickstart.py を実行するとタスクリストの名前と id が出てく�
 - 色の指定にはカラーピッカーで検索すると便利．
 - `strftime`の引数は[ここ](https://note.nkmk.me/python-datetime-usage/#_1)を参照．
 
-```Python
+```python
 def createImage(items): #items = [[タイトル,締切日時],[タイトル,締切日時]...]
     #img = Image.open('bg.png').copy() # 入力ファイルを指定
     img = Image.new("RGB", (2500,1600), color=(22, 26, 59))

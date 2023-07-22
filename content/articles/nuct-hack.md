@@ -5,13 +5,13 @@ tags: ["coding", "NUCT"]
 categories: ["NUCT"]
 ---
 
-# はじめに
+## はじめに
 
 この記事では私が知り得た，名大の学習支援システムである[NUCT](https://ct.nagoya-u.ac.jp/portal)をハックするための情報をまとめます．API は名大生しか叩くことができませんが，それ以外情報は Google 先生を駆使すれば誰でも辿り着ける情報です．
 
 <!-- more -->
 
-# 1. そもそも NUCT とは．
+## 1. そもそも NUCT とは
 
 実は，NUCT は名大の人が 0 から作ったサービスではありません．実はオープンソースの Sakai というプロジェクトを元にして作られています．
 
@@ -28,9 +28,9 @@ NUCT は 2010 年度から[(出典)](https://www.hosei.ac.jp/application/files/5
 
 </details>
 
-# 2. Sakai の API
+## 2. Sakai の API
 
-Sakai には API のエンドポイントがあります．ブラウザから簡単に確認することができます．NUCT にログインした状態で https://ct.nagoya-u.ac.jp/direct/describe にアクセスしてみましょう．すると API の使い方一覧が出てきます．
+Sakai には API のエンドポイントがあります．ブラウザから簡単に確認することができます．NUCT にログインした状態で [https://ct.nagoya-u.ac.jp/direct/describe](https://ct.nagoya-u.ac.jp/direct/describe) にアクセスしてみましょう．すると API の使い方一覧が出てきます．
 
 有用そうなエンドポイントを貼っておきます．(末尾の.json を.xml に変えると xml で取得できます)
 
@@ -52,7 +52,7 @@ Sakai には API のエンドポイントがあります．ブラウザから簡
 
 さらに詳しい API の情報はこちらの[sakai の wiki](https://sakaiproject.atlassian.net/wiki/spaces/CONF/overview?mode=global)も見てみるといいかもしれません．
 
-# 3. Confortable Sakai
+## 3. Confortable Sakai
 
 前述の Sakai の API を用いた神 Chrome 拡張として，[Comfortable Sakai](https://github.com/kyoto-u/comfortable-sakai)があります．
 Chrome に導入する場合は[こちら](https://chrome.google.com/webstore/detail/comfortable-sakai/dljchadmceknaijmdmnaaodjkkidhakh?hl=ja&authuser=0)から．
@@ -86,7 +86,7 @@ PandA の API を使っている方は他にもいらっしゃいました．多
 
 </details>
 
-# 4. その他ハック
+## 4. その他ハック
 
 1. 多要素認証自動化
    https://github.com/obashun22/auto-mfa-cas-login
@@ -102,6 +102,6 @@ PandA の API を使っている方は他にもいらっしゃいました．多
    https://github.com/alihen/Sakai-iOS
    https://github.com/PRAN1999/SakaiClientiOS
 
-# 終わりに
+## 終わりに
 
 いかがでしたでしょうか．この記事を見て誰かがいい感じの NUCT 拡張を作ってくれないかな…と期待しています…！
