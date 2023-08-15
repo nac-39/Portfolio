@@ -1,15 +1,28 @@
 title: nac-39
-subtitle: 
+subtitle:
 links:
-  - label: "@nalog3939393939"
+  - name: "Twitter"
+    label: "@nalog3939393939"
     url: https://twitter.com/nalog3939393939
+    type: contact
     icon: mdi:twitter
-  - label: "@nac-39"
+  - name: "Keybase"
+    label: "@nac_39"
+    type: contact
+    url: https://keybase.io/nac_39
+    icon: simple-icons:keybase
+  - name: "GitHub"
+    label: "@nac-39"
+    type: account
     url: https://github.com/nac-39
     icon: mdi:github
-  - label: "@na39"
-    url: https://qiita.com/na39
+  - name: "Qiita"
+    label: "@nac-39"
+    type: account
+    url: https://qiita.com/nac-39
     icon: simple-icons:qiita
-  - label: "@nac_39"
+  - name: "Zenn"
+    label: "@nac_39"
+    type: account
     url: https://zenn.dev/nac_39
     icon: simple-icons:zenn

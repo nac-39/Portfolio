@@ -1,7 +1,9 @@
 export type LinkTag = {
+  name: string
   icon: string
   label: string
-  link: string
+  url: string
+  type: "contact" | "account"
 }
 
 export type About = {

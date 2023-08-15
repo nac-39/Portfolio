@@ -1,13 +1,10 @@
 import type { ParsedContent } from "@nuxt/content/dist/runtime/types"
+import type { LinkTag } from "./About"
 
 export interface General extends ParsedContent {
   title: string
   subtitle: string
-  links: {
-    label: string
-    url: string
-    icon: string
-  }[]
+  links: LinkTag[]
 }
 
 interface Affiliation {
