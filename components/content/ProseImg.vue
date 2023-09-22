@@ -1,5 +1,11 @@
 <template>
-  <NuxtImg :src="refinedSrc" :alt="alt" :width="width" :height="height" />
+  <NuxtPicture
+    format="avif,webp,jpg,png"
+    :src="refinedSrc"
+    :alt="alt"
+    :width="width"
+    :height="height"
+  />
 </template>
 
 <script setup lang="ts">
@@ -26,3 +32,9 @@ const refinedSrc = computed(() => {
   return props.src
 })
 </script>
+
+<style scoped>
+picture {
+  width: fit-content;
+}
+</style>

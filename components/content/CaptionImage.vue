@@ -1,10 +1,8 @@
 <template>
-  <figure>
+  <figure class="caption-image__figure">
     <slot />
     <figcaption class="text-xs text-center text-text_gray">
-      <div>
-        <slot name="caption" />
-      </div>
+      <slot name="caption" />
     </figcaption>
   </figure>
 </template>
@@ -33,3 +31,11 @@ defineProps({
   },
 })
 </script>
+
+<style scoped>
+.caption-image__figure :deep(p) {
+  /* Nuxt Contentによって生成される<p>に対応する */
+  display: flex;
+  justify-content: center;
+}
+</style>
