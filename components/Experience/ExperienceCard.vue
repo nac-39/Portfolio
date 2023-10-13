@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center">
-    <div class="m-4 w-32">
+    <div class="w-32">
       {{ period }}
     </div>
     <div
@@ -10,7 +10,7 @@
       <div class="h-full bg-main_darkest w-1 absolute right-1.5" />
     </div>
     <div class="bg-main_darkest h-1 w-8" />
-    <div class="border-main_darkest border-4 w-64 mt-2 mb-2">
+    <div class="border-main_darkest border-4 w-80 mt-2 mb-2">
       <div class="text-lg font-bold m-2">
         {{ title }}
       </div>
@@ -20,13 +20,19 @@
         </div>
         <slot v-else />
       </div>
+      <div v-if="frameworks" class="mx-2 mb-2 flex overflow-scroll">
+        <FrameworkTag
+          v-for="fw in frameworks"
+          :key="fw.name"
+          :icon="fw.icon"
+          :name="fw.name"
+          :url="fw.url"
+        />
+      </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-defineProps<{
-  period: string
-  title: string
-  description?: string
-}>()
+import { Experience } from "~/types/Experience"
+defineProps<Experience>()
 </script>
