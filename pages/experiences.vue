@@ -3,7 +3,7 @@
     <div class="font-title text-4xl">
       Experiences
     </div>
-    <Experience :experiences="experiences" />
+    <Experience :experiences="experiences" class="my-12" />
   </main>
 </template>
 <script setup lang="ts">

@@ -1,4 +1,7 @@
 experiences:
+  - title: "名古屋大学情報学部自然情報学科入学"
+    period: 2021/4 ~ 現在
+    description: "学科ではシミュレーションなどの勉強をしています"
   - title: "NUOCW"
     period: 2021/4 ~ 現在
     description: "大学のOCWサイトの管理・開発を行っています。サーバーの管理や内部用のコンテンツ管理システムを作りました"
