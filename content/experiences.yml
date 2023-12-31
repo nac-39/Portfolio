@@ -2,6 +2,7 @@ experiences:
   - title: "名古屋大学情報学部自然情報学科入学"
     period: 2021/4 ~ 現在
     description: "学科ではシミュレーションなどの勉強をしています"
+
   - title: "NUOCW"
     period: 2021/4 ~ 現在
     description: "大学のOCWサイトの管理・開発を行っています。サーバーの管理や内部用のコンテンツ管理システムを作りました"
@@ -28,6 +29,7 @@ experiences:
       - name: Nuxt.js
         icon: vscode-icons:file-type-nuxt
         url: https://nuxtjs.org/
+
   - title: "デンソークラウドコンテスト"
     period: 2023/1 ~ 2023/2
     description: "二ヶ月ほどAWSのチュートリアルを行い、最後にはAWSのコンテストを行いました。結果は同じチームの方のおかげで２位でした。"
@@ -35,9 +37,11 @@ experiences:
       - name: AWS
         icon: logos:aws
         url: https://aws.amazon.com/jp/
+
   - title: "Google STEP dev course"
     period: 2023/5 ~ 2023/6
     description: "二ヶ月間、データ構造やアルゴリズム、TSPなどのコンピュータサイエンスの基礎を学びました。他の大学の情報系の人ともたくさん話すことができて楽しかったです。"
+
   - title: "Cookpad Summer Internship 2023"
     period: 2023/7
     description: "iOS/Railsの開発ハンズオン、サービス開発を体験させていただきました。cookpadでの業務のイメージがついたのが良かったです。また、食べさせてくださるごはんがどれも美味しくて胃袋を掴まれました。"
@@ -48,6 +52,7 @@ experiences:
       - name: iOS
         icon: logos:apple
         url: https://www.apple.com/jp/ios/
+
   - title: "pixiv SUMMER BOOT CAMP 2023"
     period: 2023/9
     description: "１週間ほど、BOOTHの開発業務を体験させていただきました。割と泥臭めの業務だったのですが、本当に実際の業務を体験できたのが良かったです。ここでも胃袋を掴まれました。"
