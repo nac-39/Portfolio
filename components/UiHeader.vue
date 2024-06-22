@@ -68,6 +68,7 @@ const links = ref([
   { to: "/", text: "Home" },
   { to: "/skills", text: "Skills" },
   { to: "/works", text: "Works" },
+  { to: "/experiences", text: "Experiences" },
   { to: "/blog", text: "Blog" },
 ])
 </script>
