@@ -1,4 +1,17 @@
 works:
+  - title: thoughtful(Dots to Codeハッカソン)
+    date: 2024年3月
+    imgPath: /img/thoughtful.png
+    description: >
+      Dots to Codeハッカソンで作ったアプリです。プレゼントを送りたい相手の欲しいものの好みのアンケートを
+      取り、その結果をもとにプレゼントを提案するアプリです。バックエンドを担当し、アーキテクチャの設計を工夫しました。
+    frameworks:
+      - name: FastAPI
+        icon: logos:fastapi
+        url: https://fastapi.tiangolo.com/
+    githubUrl: https://github.com/nunupy345345/Dots_to_code2024_back
+    siteUrl: https://dots-to-code-thoughtful.vercel.app/top
+
   - title: 名大の新歓まとめサイト
     date: 2023年3月
     imgPath: /img/nu_shinkan.png
@@ -59,4 +72,3 @@ works:
       gather.townのAPIを叩いて、Slackの投稿を書き換えるだけのシンプルなものですが、
       サークルの人たちからは好評だったので、作ってよかったです。
     githubUrl: https://github.com/nac-39/slack-bot_gather_member
-
