@@ -1,4 +1,81 @@
 skills:
+  - title: バックエンド
+    skills:
+      - name: Python
+        icon: vscode-icons:file-type-python
+        description: >
+          バックエンドとして一番使える言語です。Djangoでシステムを一から作り、Docker, Apacheを使ってデプロイした経験があります。
+          また、長期インターン先でFastAPIを使ったAPIの実装を行ったことがあります。Flaskも使ったことがあります。
+        frameworks:
+          - name: Django
+            icon: vscode-icons:file-type-django
+            url: https://www.djangoproject.com/
+          - name: Flask
+            icon: simple-icons:flask
+            url: https://flask.palletsprojects.com/
+          - name: FastAPI
+            icon: skill-icons:fastapi
+            url: https://fastapi.tiangolo.com/
+          - name: PyTest
+            icon: simple-icons:pytest
+            url: https://docs.pytest.org/en/6.2.x/
+          - name: pandas
+            icon: simple-icons:pandas
+            url: https://pandas.pydata.org/
+          - name: pandera
+            icon: simple-icons:python
+            url: https://pandera.readthedocs.io/en/stable/
+          - name: uv
+            icon: simple-icons:python
+            url: https://docs.astral.sh/uv/
+      - name: 機械学習
+        icon: noto-v1:robot
+        description: >
+          大学では、TransformerのAttentionの高速化について研究しています。
+          PyTorchのAPIを使ってテンソルの演算をしたり、OpenAIのtritonという言語を使ってCUDAのカーネルを書いたりしました。
+          研究室ではどちらかというと理論よりの研究をしているので、実装に関してはまだまだですが、基本的なことは理解しているつもりです。
+        frameworks:
+          - name: PyTorch
+            icon: simple-icons:pytorch
+            url: https://pytorch.org/
+          - name: Triton
+            icon: simple-icons:python
+            url: https://triton-lang.org/main/index.html
+      - name: Go
+        icon: vscode-icons:file-type-go
+        description: >
+          Gin, Echo, Gormなどを使ったAPI作成研修でゲームのバックエンドを作ったことがあります。
+          調べればちょっとしたツールは作れると思います。
+        frameworks:
+          - name: Gin
+            icon: simple-icons:gin
+            url: https://gin-gonic.com/
+          - name: Echo
+            icon: simple-icons:go
+            url: https://echo.labstack.com/
+      - name: Firebase
+        icon: vscode-icons:file-type-firebase
+        description: >
+          Nuxtで作ったサイトのホスティング、バックエンドとして使ったことがあります。Hosting, Firestore, Authentication, Functionsを使いました。AuthenticationではTwitterログインを使い、こちらが許可したユーザーしかユーザー登録できないようにFunctionsを設定しました。
+      - name: AWS
+        icon: skill-icons:aws-dark
+        description: >
+          EC2, Lambda, S3, API Gatewayなどはチュートリアル程度は使ったことがあります。
+      - name: SQL
+        icon: vscode-icons:file-type-sql
+        description: >
+          PostgreSQLを主に使ったことがあります。基本的なSQL文は書けます。データベースの授業を受けたので、内部構造も少しわかります。
+        frameworks:
+          - name: PostgreSQL
+            icon: simple-icons:postgresql
+            url: https://www.postgresql.org/
+          - name: MySQL
+            icon: simple-icons:mysql
+            url: https://www.mysql.com/
+          - name: SQLite
+            icon: simple-icons:sqlite
+            url: https://www.sqlite.org/index.html
+
   - title: フロントエンド
     skills:
       - name: Vue
@@ -32,35 +109,6 @@ skills:
           - name: Material UI
             icon: simple-icons:mui
             url: https://mui.com/core/
-  - title: バックエンド
-    skills:
-      - name: Python
-        icon: vscode-icons:file-type-python
-        description: >
-          バックエンドとして一番使える言語です。Djangoでシステムを一から作り、Docker, Apacheを使ってデプロイした経験があります。
-          また、FastAPIで型を使って開発したり、Flaskを使ったりしたこともあります。
-        frameworks:
-          - name: Django
-            icon: vscode-icons:file-type-django
-            url: https://www.djangoproject.com/
-          - name: Flask
-            icon: simple-icons:flask
-            url: https://flask.palletsprojects.com/
-          - name: FastAPI
-            icon: skill-icons:fastapi
-            url: https://fastapi.tiangolo.com/
-      - name: Firebase
-        icon: vscode-icons:file-type-firebase
-        description: >
-          Nuxtで作ったサイトのホスティング、バックエンドとして使ったことがあります。Hosting, Firestore, Authentication, Functionsを使いました。AuthenticationではTwitterログインを使い、こちらが許可したユーザーしかユーザー登録できないようにFunctionsを設定しました。
-      - name: AWS
-        icon: skill-icons:aws-dark
-        description: >
-          EC2, Lambda, S3, API Gatewayなどはチュートリアル程度は使ったことがあります。
-      - name: SQL
-        icon: vscode-icons:file-type-sql
-        description: >
-          PostgreSQLを使ったことがあります。基本的なSQL,コマンドライン操作はできます。まだ1からデータベースを作ったことはありません。
   - title: 開発環境
     skills:
       - name: Docker
@@ -82,9 +130,6 @@ skills:
           争いは好みませんが、やっぱりVimですよね()。最近はNeovimを入れてコツコツ設定を育てるのが楽しいです。
   - title: その他
     skills:
-      - name: Numpy, Matplotlib
-        description: >
-          大学の授業でシミュレーションとその結果の図示のためによく使います。
       - name: スクレイピング
         description: >
           Pythonでスクレイピングをすることができます。BeautifulSoup, Seleniumなどを使っています。
