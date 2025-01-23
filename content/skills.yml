@@ -120,14 +120,26 @@ skills:
         icon: mdi:github
         description: >
           毎日眺めてます。開発ではCI/CDツールとしてGitHub Actionsをよく使います。
+      - name: Git
+        icon: devicon:git
+        description: >
+          使えます。基本的なコマンドは覚えています。普段はショートカットを登録し、コマンドを３文字で打ってドヤ顔をしています。
+          git関連の検索履歴１位は「git add 取り消し」です。
       - name: Visual Studio Code
         icon: vscode-icons:file-type-vscode
         description: >
-          メインで使っています。最近はGitHub Copilotが大活躍です。
+          メインで使っています。最近はGitHub Copilotが大活躍です。好きなカラーテーマはOne Dark Proです。
       - name: Vim
         icon: skill-icons:vim-light
         description: >
-          争いは好みませんが、やっぱりVimですよね()。最近はNeovimを入れてコツコツ設定を育てるのが楽しいです。
+          争いは好みませんが、やっぱりVimですよね()。
+          最近はNeovimを入れてdotfilesを作りコツコツ設定を育てるのが楽しいです。
+      - name: Ubuntu
+        icon: logos:ubuntu
+        description: >
+          サブPCはUbuntuです。IP固定やSSHの設定、Apacheの設定などを行ったことがあります。
+          各種設定はググりながらやっています。
+          Arch Linuxは憧れますが、面倒でやめてしまいました…。
   - title: その他
     skills:
       - name: スクレイピング
