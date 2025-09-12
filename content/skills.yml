@@ -45,7 +45,7 @@ skills:
         icon: vscode-icons:file-type-go
         description: >
           Gin, Echo, Gormなどを使ったAPI作成研修でゲームのバックエンドを作ったことがあります。
-          調べればちょっとしたツールは作れると思います。
+          Kubebuilderを用いたk8sのカスタムコントローラの実装も行ったことがあります。
         frameworks:
           - name: Gin
             icon: simple-icons:gin
@@ -64,7 +64,7 @@ skills:
       - name: SQL
         icon: vscode-icons:file-type-sql
         description: >
-          PostgreSQLを主に使ったことがあります。基本的なSQL文は書けます。データベースの授業を受けたので、内部構造も少しわかります。
+          PostgreSQLを主に使ったことがあります。基本的なSQL文は書けます。データベースの授業を受けてB+木の構造に感動しました。
         frameworks:
           - name: PostgreSQL
             icon: simple-icons:postgresql
@@ -109,13 +109,39 @@ skills:
           - name: Material UI
             icon: simple-icons:mui
             url: https://mui.com/core/
-  - title: 開発環境
+  - title: インフラ系
     skills:
+      - name: Kubernetes
+        icon: logos:kubernetes
+        description: >
+          一ヶ月間のサマーインターンで、Kubernetesを用いたプラットフォームの構築に携わりました。
+          CRDやカスタムコントローラをKubebuilderを用いて実装したり、Argo Workflowを用いてワークフローを実装したりしました。
+          何回リソースを消してもOwnerがいる限り立ち上げてくれるのが健気でかわいいですね。
+        frameworks:
+          - name: Helm
+            icon: simple-icons:helm
+            url: https://helm.sh/
+          - name: Kubebuilder
+            url: https://kubebuilder.io/
       - name: Docker
         icon: vscode-icons:file-type-docker
         description: >
           様々な言語の開発環境として使っています。Djangoのアプリのデプロイに使用したこともあります。
           バックエンド、DB、フロントエンドのコンテナを立てて繋げるなどはよくやります。
+      - name: Ubuntu
+        icon: logos:ubuntu
+        description: >
+          サブPCはUbuntuです。IP固定やSSHの設定、Apacheの設定などを行ったことがあります。
+          各種設定はググりながらやっています。
+          Arch Linuxは憧れますが、面倒でやめてしまいました…。
+      - name: ネットワーク
+        icon: fluent-mdl2:my-network
+        description: >
+          マスタリングTCP/IPを一度通読して基本的なことは理解しているつもりです。実際に構築などはまだしたことがありません。興味はあります！
+          自分が持っているPCたちやNASはTailscaleを使って繋げています！
+
+  - title: 開発環境
+    skills:
       - name: GitHub
         icon: mdi:github
         description: >
@@ -134,12 +160,7 @@ skills:
         description: >
           争いは好みませんが、やっぱりVimですよね()。
           最近はNeovimを入れてdotfilesを作りコツコツ設定を育てるのが楽しいです。
-      - name: Ubuntu
-        icon: logos:ubuntu
-        description: >
-          サブPCはUbuntuです。IP固定やSSHの設定、Apacheの設定などを行ったことがあります。
-          各種設定はググりながらやっています。
-          Arch Linuxは憧れますが、面倒でやめてしまいました…。
+
   - title: その他
     skills:
       - name: スクレイピング
@@ -148,6 +169,9 @@ skills:
       - name: 電子工作
         description: >
           参考資料を見てその通りにC, C++などでコードを書き、組み立てる程度ならやったことがあります。Arduino nanoと熱電対を使った温度計や、自作キーボードを作ったことがあります。
-      - name: ネットワーク
+      - name: 手芸
         description: >
-          マスタリングTCP/IPを一度通読して基本的なことは理解しているつもりです。実際に構築などはまだしたことがありません。興味はあります！
+          根気で綺麗にできるまで縫い直します。ミャクミャクのぬいぐるみを作ったブログがあるのでぜひご覧ください。
+      - name: 運転
+        description: >
+          普通自動車免許を持っています。原付のビーノで通学しています🛵。
