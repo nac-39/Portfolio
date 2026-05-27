@@ -1,9 +1,7 @@
 affiliations:
-  - name: 名古屋大学情報学研究科複雑系科学専攻M1
+  - name: 名古屋大学情報学研究科複雑系科学専攻M2
   - name: アプリ開発団体jack
     url: https://jack-website.netlify.app/
-  - name: 自主ゼミゼロイチゼミ
-    url: https://nu-zero-one.netlify.app/
 selfIntroduction: >
   小さい頃からものを作るのが好きで、大学に入ってからアプリ開発を始めました。
   ものを作るとき楽しいのは、仕組みを考えたり設計をしたりするところ、そしてそれを人と議論することです。
