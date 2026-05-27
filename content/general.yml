@@ -1,6 +1,21 @@
 title: nac-39
 subtitle:
 links:
+  - name: "Mail"
+    label: "mail<at>nac-39.com"
+    url: mailto:mail@nac-39.com
+    type: contact
+    icon: mdi:email
+  - name: "LinkedIn"
+    label: "菜々子-齋藤"
+    url: https://www.linkedin.com/in/菜々子-齋藤-4179b2278
+    type: contact
+    icon: mdi:linkedin
+  - name: "Discord"
+    label: "nac_39"
+    url: https://discordapp.com/users/nac_39
+    type: contact
+    icon: mdi:discord
   - name: "Twitter"
     label: "@nalog3939393939"
     url: https://twitter.com/nalog3939393939
