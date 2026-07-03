@@ -19,7 +19,6 @@
 </template>
 
 <script setup lang="ts">
-import { parseISO } from "date-fns"
 import { Article } from "~/types/Article"
 
 interface ArticleCardProps {
@@ -28,7 +27,7 @@ interface ArticleCardProps {
 
 const data = defineProps<ArticleCardProps>()
 const showDate = computed(() => {
-  const date = parseISO(data.article.date)
+  const date = parseArticleDate(data.article.date)
   return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`
 })
 </script>

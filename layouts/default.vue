@@ -8,17 +8,25 @@
   </div>
 </template>
 <script setup lang="ts">
-const router = useRouter()
-const currentPath = computed(
-  () => `https://nac-39.github.io/Portfolio${router.currentRoute.value.path}`,
-)
-useHead({
-  meta: [
+const route = useRoute()
+const {
+  public: { siteUrl },
+} = useRuntimeConfig()
+const currentUrl = computed(() => new URL(route.path, siteUrl).toString())
+
+useHead(() => ({
+  link: [
     {
-      hid: "og:url",
-      property: "og:url",
-      content: currentPath.value,
+      rel: "canonical",
+      href: currentUrl.value,
     },
   ],
-})
+  meta: [
+    {
+      key: "og:url",
+      property: "og:url",
+      content: currentUrl.value,
+    },
+  ],
+}))
 </script>
